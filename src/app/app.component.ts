@@ -7,4 +7,15 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'Crud con Angular 5';
+
+  nombre : string;
+  
+  constructor() {
+   
+  }
+
+  ngOnInit() {
+      
+  }
+
 }

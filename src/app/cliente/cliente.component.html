@@ -1,0 +1,13 @@
+<div class="col-md-4">
+  <h1>Lista</h1>
+  <input class="form-control" type="text" [(ngModel)]="color_seleccionado">
+  <div [ngStyle]="{
+            'background' : color_seleccionado,
+            'width' : '200px',
+            'height' : '200px',
+            'float' : 'right',
+            'margin-right' : '60%'
+        }">
+  </div>
+
+</div>
